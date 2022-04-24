@@ -1,43 +1,107 @@
+:root{
+    --title-color:#212121;
+    --text-color:#757575;
+    --accent-color:#2196F3;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
-    color: #212121;
+    color: var(--title-color);
     background-color: #fff;
 }
-/* colors title #212121 first title,
- adress #FFFFFF text #757575 
- footer with alpha rgba(255, 255, 255, 0.6)*/
+ul{
+    list-style: none;
+}
 .contact-nav:hover,
 .contact-nav:focus,
-.site-nav:hover,
-.site-nav:focus
 .order-link:hover{
-    color: #2196F3;
+    color: var(--accent-color);
 }
-.service-link:active {
-    color: #2196F3;
+
+/* Nav */
+.logo {
+    color: var(--accent-color);
 }
-.order-link{
-    background: #2196F3;
+.studio {
+    color: #2F303A;
+}
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contact-nav .link:hover,
+.contact-nav .link:focus{
+    color: var(--accent-color);
+}
+.site-nav .link{
+    color: var(--title-color);
+}
+.contact-nav .link{
+    color: var(--text-color);
+}
+
+/* Order */
+.order {
+    background-color: #2F303A;
+}
+.order-title {
+    color: #ffffff;
+}
+.order-link {
+    background: var(--accent-color);
     color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
-.order{
-    background-color: #2F303A;
+/* Features */
+.title{
+    color: --var(--title-color);
 }
-.order-title{
-    color: #ffffff;
+.text{
+    color: var(--text-color);
 }
-.team{
+/* Services */
+.section-services .title-services{
+    color: var(--title-color);
+}
+/* Team */
+.section-team {
     background-color: #F5F4FA;
 }
-.footer{
+.team-title{
+    color: var(--title-color);
+}
+.name-title{
+    color: var(--title-color);
+}
+.team-text{
+    color: var(--text-color);
+}
+/* Footer */
+.footer {
     background-color: #2F303A;
 }
-.logo{
-    color: #2196F3;
+.studio-footer,
+.adress{
+    color: #ffffff;
 }
-.studio{
-    color: #2F303A;
+/* Buttons */
+.button-list:active {
+    color: var(--accent-color);
 }
+.button{
+    background-color: #F5F4FA;
+    color: var(--title-color);
+}
+.button:hover,
+button:focus {
+    background-color: var(--accent-color);
+    color:#ffffff;
+}
+
+
+
+
+
  
