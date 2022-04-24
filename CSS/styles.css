@@ -1,13 +1,43 @@
 body{
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     color: #212121;
+    background-color: #fff;
 }
+/* colors title #212121 first title,
+ adress #FFFFFF text #757575 
+ footer with alpha rgba(255, 255, 255, 0.6)*/
 .contact-nav:hover,
 .contact-nav:focus,
 .site-nav:hover,
-.site-nav:focus {
+.site-nav:focus
+.order-link:hover{
     color: #2196F3;
 }
 .service-link:active {
     color: #2196F3;
 }
+.order-link{
+    background: #2196F3;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.order{
+    background-color: #2F303A;
+}
+.order-title{
+    color: #ffffff;
+}
+.team{
+    background-color: #F5F4FA;
+}
+.footer{
+    background-color: #2F303A;
+}
+.logo{
+    color: #2196F3;
+}
+.studio{
+    color: #2F303A;
+}
+ 
