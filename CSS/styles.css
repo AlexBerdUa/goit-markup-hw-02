@@ -2,12 +2,15 @@
     --title-color:#212121;
     --text-color:#757575;
     --accent-color:#2196F3;
+    --neutral-color:#fff;
+    --logo-color:#2F303A;
+    --neutral-bgc: #F5F4FA;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
     color: var(--title-color);
-    background-color: #fff;
+    background-color: var(--neutral-color);
     letter-spacing: 0.03em;
     font-size: 14px;
     }
@@ -26,7 +29,7 @@ ul{
     text-decoration: none;
  }
 .accent {
-    color: #2F303A;
+    color: var(--logo-color);
 }
 .site-nav .link.current{
     color: var(--accent-color);
@@ -34,7 +37,9 @@ ul{
 .site-nav .link:hover,
 .site-nav .link:focus,
 .contact-nav .link:hover,
-.contact-nav .link:focus{
+.contact-nav .link:focus,
+.adress:hover,
+.adress:focus {
     color: var(--accent-color);
 }
 .site-nav .link{
@@ -52,13 +57,13 @@ ul{
 
 /* Order */
 .order {
-    background-color: #2F303A;
+    background-color: var(--logo-color);
 }
 .order-title {
-    color: #ffffff;
+    color: var(--neutral-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.4;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -66,7 +71,7 @@ ul{
 .order-link {
     font-family: inherit;
     background: var(--accent-color);
-    color: #FFFFFF;
+    color: var(--neutral-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -76,7 +81,7 @@ ul{
     letter-spacing: 0.06em;
 }
 .order-link:hover {
-    color: #ffffff;
+    color: var(--neutral-color);
 }
 /* Features */
 .title{
@@ -103,7 +108,7 @@ ul{
 }
 /* Team */
 .section-team {
-    background-color: #F5F4FA;
+    background-color:var(--neutral-bgc);
 }
 .team-title{
     color: var(--title-color);
@@ -128,15 +133,15 @@ ul{
 }
 /* Footer */
 .footer {
-    background-color: #2F303A;
+    background-color: var(--logo-color);
 }
 .accent-footer,
 .adress{
-    color: #ffffff;
+    color: var(--neutral-color);
     text-decoration: none;
 }
 .adress{
-    font-weight: 400;
+    font-style: normal;
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
@@ -144,7 +149,7 @@ ul{
 
 .button{
     font-family: inherit;
-    background-color: #F5F4FA;
+    background-color: var(--neutral-bgc);
     color: var(--title-color);
     font-weight: 500;
     font-size: 16px;
@@ -156,7 +161,7 @@ ul{
 .button:hover,
 button:focus {
     background-color: var(--accent-color);
-    color:#ffffff;
+    color:var(--neutral-color);
 }
 .project-title{
     font-family: 'Roboto';
