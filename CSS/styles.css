@@ -150,7 +150,8 @@ ul{
 /*********************** Buttons */
 
 .button{
-    font-family: inherit;
+    font-family: 'Roboto',
+    sans-serif;
     background-color: var(--neutral-bgc);
     color: var(--title-color);
     font-weight: 500;
