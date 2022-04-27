@@ -15,11 +15,17 @@ body{
     font-size: 14px;
     }
 
+adress{
+font-style: normal;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+
 ul{
     list-style: none;
 }
 
-/* Nav */
+/**************************** Nav */
 .logo {
     color: var(--accent-color);
     font-family: 'Raleway', sans-serif;
@@ -55,7 +61,7 @@ ul{
     text-decoration: none;
 }
 
-/* Order */
+/**************************** Order */
 .order {
     background-color: var(--logo-color);
 }
@@ -84,7 +90,7 @@ ul{
 .order-link:hover {
     color: var(--neutral-color);
 }
-/* Features */
+/**************************** Features */
 .title{
     color: --var(--title-color);
     font-weight: 700;
@@ -96,7 +102,7 @@ ul{
     line-height: 1.71;
     /* or 171% */
 }
-/* Services */
+/**************************** Services */
 .section-services .title-services{
     color: var(--title-color);
 }
@@ -106,7 +112,7 @@ ul{
     line-height: 1.17;
     text-align: center;
 }
-/* Team */
+/**************************** Team */
 .section-team {
     background-color:var(--neutral-bgc);
 }
@@ -130,7 +136,7 @@ ul{
     line-height: 1.19;
     text-align: center;
 }
-/* Footer */
+/************************ Footer */
 .footer {
     background-color: var(--logo-color);
 }
@@ -139,12 +145,9 @@ ul{
     color: var(--neutral-color);
     text-decoration: none;
 }
-.adress{
-    font-style: normal;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    
 }
-/* Buttons */
+/*********************** Buttons */
 
 .button{
     font-family: inherit;
@@ -158,7 +161,7 @@ ul{
     cursor: pointer;
 }
 .button:hover,
-button:focus {
+.button:focus {
     background-color: var(--accent-color);
     color:var(--neutral-color);
 }
