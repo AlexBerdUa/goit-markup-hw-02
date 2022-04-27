@@ -63,7 +63,7 @@ ul{
     color: var(--neutral-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.4;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -74,7 +74,7 @@ ul{
     color: var(--neutral-color);
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.86;
     display: flex;
     align-items: center;
     text-align: center;
@@ -87,13 +87,12 @@ ul{
 .title{
     color: --var(--title-color);
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.14;
     text-transform: uppercase;
 }
 .text{
     color: var(--text-color);
-    font-weight: 400;
-    line-height: 1.7;
+    line-height: 1.71;
     /* or 171% */
 }
 /* Services */
@@ -103,7 +102,7 @@ ul{
 .title-services {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.17;
     text-align: center;
 }
 /* Team */
@@ -114,21 +113,20 @@ ul{
     color: var(--title-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.17;
     text-align: center;
 }
 .name-title{
     color: var(--title-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.19;
     text-align: center;
 }
 .team-text{
     color: var(--text-color);
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.19;
     text-align: center;
 }
 /* Footer */
@@ -142,7 +140,7 @@ ul{
 }
 .adress{
     font-style: normal;
-    line-height: 1.7;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 /* Buttons */
@@ -153,7 +151,7 @@ ul{
     color: var(--title-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.63;
     text-align: center;
 
     cursor: pointer;
@@ -164,18 +162,15 @@ button:focus {
     color:var(--neutral-color);
 }
 .project-title{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 2;
+    line-height: 2.00;
     letter-spacing: 0.06em;
 }
 .project-text{
     color: var(--text-color);
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.86;
     
 }
 
